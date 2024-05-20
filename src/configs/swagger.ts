@@ -10,7 +10,7 @@ const options = {
             version: "0.0.1",
         },
     },
-    apis: ["./src/routes/*.ts", "./src/schemas/*.ts"],
+    apis: ["./src/docs/**/*.swagger.yaml"],
 }
 
 export const initSwagger = (app: Express) => {
